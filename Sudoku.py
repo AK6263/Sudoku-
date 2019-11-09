@@ -3,7 +3,7 @@
 @author: Abhay Kshirsagar
 backtracking
 """
-from itertools import *
+
 import numpy as np
 import time
 import sys
@@ -14,7 +14,6 @@ puzzle = "5701009046000900010900000000104002002005080090090070600000000401000500
 a=[int(d) for d in puzzle]
 
 sudoku = np.array(a).reshape(9,9)
-
 
 '''
 some examples
